@@ -50,14 +50,19 @@ namespace rfcc
 			int año = fechas.Year;
 			//DIVIDE EL AÑO ENTRE 100 Y ESPECIFICA QUE SOLO QUE SOLO QUIERE DOS NUMEROS
 			string sifrasaño = (año%100).ToString("00");
-			
+			//DELCARAR UNA VARIABLE QUE SOLO SIRVE PARA FECHAS
 			DateTime mesito=mt_nacimiento.SelectionStart;
+			//DECLARAR LA VARIABLE NUEMRICA QUE SUSTITUIRA LA ANTERIO VARIABLE
 			int mes = mesito.Month;
+			//DELCARAR UNA VARIABLE QUE SOLO SIRVE PARA FECHAS
 			DateTime diaa = mt_nacimiento.SelectionStart;
+			//DECLARAR LA VARIABLE NUEMRICA QUE SUSTITUIRA LA ANTERIO VARIABLE MASTRANDO QUE ESTAS HABLANDO DE DIA CON .DIA
 			int dia=diaa.Day;
+			//DECLARAR LAS VARIABLES CON SOLO DOAS DIGITOS ESCEPTO LA VARIABLE DIA POR QUE ESTA YA ESTA EN DOS DIGITOS
 			string messtring=mes.ToString("00");
 			string diastring=dia.ToString("00");
 			string rfc = letrasapellido1 + letrasapellido2 + letranombre + sifrasaño + messtring + diastring;
+			//DAR EL MENSAJE DE TU RFC
 			MessageBox.Show(rfc);
 		}
 	}

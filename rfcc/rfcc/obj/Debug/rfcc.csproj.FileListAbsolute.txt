@@ -5,3 +5,5 @@ C:\Users\CC2_PC35\hola\rfcc\rfcc\obj\Debug\rfcc.MainForm.resources
 C:\Users\CC2_PC35\hola\rfcc\rfcc\obj\Debug\rfcc.csproj.GenerateResource.Cache
 C:\Users\CC2_PC35\hola\rfcc\rfcc\obj\Debug\rfcc.exe
 C:\Users\CC2_PC35\hola\rfcc\rfcc\obj\Debug\rfcc.pdb
+C:\Users\CC2_PC35\hola\rfcc\rfcc\obj\Debug\rfcc.RFC.resources
+C:\Users\CC2_PC35\hola\rfcc\rfcc\obj\Debug\rfcc.Form1.resources

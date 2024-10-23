@@ -18,6 +18,7 @@ namespace rfcc
 	/// </summary>
 	public partial class MainForm : Form
 	{
+		
 		public MainForm()
 		{
 			//
@@ -62,8 +63,9 @@ namespace rfcc
 			string messtring=mes.ToString("00");
 			string diastring=dia.ToString("00");
 			string rfc = letrasapellido1 + letrasapellido2 + letranombre + sifrasaño + messtring + diastring;
-			//DAR EL MENSAJE DE TU RFC
-			MessageBox.Show(rfc);
+			string nombre_completo= txtnombre + txtap1 + txtap2;
+			RFC form1 = new RFC();
+			form1.Show();
 		}
 	}
 }
